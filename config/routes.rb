@@ -1,4 +1,8 @@
 Demo::Application.routes.draw do
+  resources :products
+
+  get "say/files"
+
   get "say/hello"
 
   get "say/goodbye"
